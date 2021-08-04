@@ -19,3 +19,41 @@
     --fs-h3: 1.2rem;
     --fs-body: 1rem;
 }
+
+@media (min-width: 900px) {
+    :root{
+        --fs-h1: 4rem;
+        --fs-h2: 3rem;
+        --fs-h3: 1.2rem;
+        --fs-body: 1rem;
+    }
+}
+
+/*create some general styles*/
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--clr-light);
+    color: var(--clr-dark);
+    margin: 0;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    line-height: 1.5;
+}
+
+/*we'll come back to style the navigation button*/
+
+img{
+    display: block;
+    max-width: 100;
+}
+
+section{
+    padding: 1em 2em;
+}
+
+strong{
+    font-weight: var(--fw-bold);
+}
