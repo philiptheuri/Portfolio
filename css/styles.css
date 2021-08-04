@@ -57,3 +57,9 @@ section{
 strong{
     font-weight: var(--fw-bold);
 }
+
+/*typography*/
+h1, h2, h3 {
+    line-height: 1;
+    margin: 0;
+}
